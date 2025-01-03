@@ -15,7 +15,7 @@ const Portfolio = () => {
       }, []);
     return (
         <div>
-            <section active="portfolio" id='Portfolio' className="md:py-20 py-12">
+            <section active="portfolio" id='Portfolio' className="py-12">
                 <div className="max-w-container px-4 md:px-0 mx-auto">
                     <div data-aos="fade-down" className="text-center">
                         <span className="font-semibold font-barlow text-xl text-[#FC7868]">Portfolio</span>
@@ -24,7 +24,7 @@ const Portfolio = () => {
                     </div>
                     <div className="md:block hidden">
                     <div className="mt-16">
-                        <div className="flex justify-center items-center justify-between gap-x-6">
+                        <div className="flex items-center justify-between gap-x-6">
                             <div data-aos="zoom-in" className="w-[48%] relative group hover:shadow-imgshadow hover:rounded-lg">
                                 <div className="">
                                     <img className="rounded-lg border" src={project} alt="" />
@@ -114,7 +114,7 @@ const Portfolio = () => {
                     </div>
                     <div className="md:hidden block">
                     <div className="mt-16">
-                        <div className="md:flex justify-center items-center justify-between gap-x-6">
+                        <div className="md:flex items-center justify-between gap-x-6">
                             <div data-aos="zoom-in" className="md:w-[48%] relative group hover:shadow-imgshadow hover:rounded-lg">
                                 <div className="">
                                     <img className="rounded-lg border" src={project} alt="" />
@@ -136,7 +136,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="mt-16">
-                        <div className="md:flex justify-center items-center justify-between gap-x-6">
+                        <div className="md:flex items-center justify-between gap-x-6">
                             <div data-aos="zoom-in" className="md:w-[48%] relative group hover:shadow-imgshadow hover:rounded-lg">
                                 <div className="">
                                     <img className="rounded-lg border" src={projectThre} alt="" />
@@ -158,7 +158,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="mt-16">
-                        <div className="md:flex justify-center items-center justify-between gap-x-6">
+                        <div className="md:flex items-center justify-between gap-x-6">
                             <div data-aos="zoom-in" className="md:w-[48%] relative group hover:shadow-imgshadow hover:rounded-lg">
                                 <div className="">
                                     <img className="rounded-lg border" src={projectTwo} alt="" />
@@ -180,7 +180,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="mt-16">
-                        <div className="md:flex justify-center items-center justify-between gap-x-6">
+                        <div className="md:flex items-center justify-between gap-x-6">
                             <div data-aos="zoom-in" className="md:w-[48%] relative group hover:shadow-imgshadow hover:rounded-lg">
                                 <div className="">
                                     <img className="rounded-lg border" src={projectThree} alt="" />
