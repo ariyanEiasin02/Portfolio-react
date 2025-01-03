@@ -7,11 +7,11 @@ const Footer = () => {
             <div className="max-w-container px-4 md:px-0 mx-auto">
                 <div className="md:flex justify-between">
                     <div className="">
-                        <p  className="font-light font-barlow text-xl text-white"><a href="">Copyright © 2024 Ariyan Eiasin. All Rights Reserved.</a></p>
+                        <p  className="font-light font-barlow text-base md:text-[18px] text-white"><a href="">Copyright © 2024 Ariyan Eiasin. All Rights Reserved.</a></p>
                     </div>
-                    <div className="flex mt-4 md:mt-0">
-                        <a  className="font-light font-barlow text-xl text-white mr-4" href="">Terms & Condition</a>
-                        <a  className="font-light font-barlow text-xl text-white ml-4" href="">Privacy Policy</a>
+                    <div className="flex justify-between mt-4 md:mt-0">
+                        <a  className="font-light font-barlow text-base md:text-[18px] text-white mr-4" href="">Terms & Condition</a>
+                        <a  className="font-light font-barlow text-base md:text-[18px] text-white ml-4" href="">Privacy Policy</a>
                     </div>
                 </div>
             </div>

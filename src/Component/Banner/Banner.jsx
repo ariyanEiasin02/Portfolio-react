@@ -88,7 +88,7 @@ const Banner = () => {
                   <li>
                     <a
                       className="font-semibold font-barlow text-2xl hover:text-primary cursor-pointer text-white"
-                      href="https://www.youtube.com/@ComputerCoding-56ariyan/videos"
+                      href="https://www.youtube.com/@ComputerCoding56"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -101,7 +101,7 @@ const Banner = () => {
                 <div className="mt-12">
                   <a
                     className="font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300"
-                    href="#"
+                    href="#Home"
                   >
                     Get a Quote
                   </a>

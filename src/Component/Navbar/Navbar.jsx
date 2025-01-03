@@ -23,12 +23,7 @@ const Navbar = () => {
             <div className="max-w-container mx-auto">
                 <nav className="flex justify-between items-center md:px-0 px-4 py-4">
                     <div className="">
-                        {
-                            scroll ?
-                                <h2 className="italic font-semibold font-barlow text-2xl  text-[#fff] tracking-widest">AriyanEiasin</h2>
-                                :
-                                <h2 className="italic font-semibold font-barlow text-2xl  text-[#ffffff] tracking-widest">AriyanEiasin</h2>
-                        }
+                        <h2 className="italic font-semibold font-barlow text-2xl  text-[#ffffff] tracking-widest">AriyanEiasin</h2>
                     </div>
                     <div className="">
                         <div onClick={handleMenu} className="md:hidden block">
@@ -42,7 +37,7 @@ const Navbar = () => {
                                     <a onClick={() => handleSetActiveLink('home')} className={`${activeLink === 'home' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#banner">Home</a>
                                 </li>
                                 <li className='mt-3 md:mt-0'>
-                                    <a  onClick={() => handleSetActiveLink('about')} className={`${activeLink === 'about' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#about">About</a>
+                                    <a onClick={() => handleSetActiveLink('about')} className={`${activeLink === 'about' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#about">About</a>
                                 </li>
                                 <li className='mt-3 md:mt-0'>
                                     <a onClick={() => handleSetActiveLink('portfolio')} className={`${activeLink === 'portfolio' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#Portfolio">Portfolio</a>
@@ -54,7 +49,7 @@ const Navbar = () => {
                                     <a onClick={() => handleSetActiveLink('contact')} className={`${activeLink === 'contact' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#Contact">Contact</a>
                                 </li>
                                 <li className='mt-3 md:mt-0'>
-                                    <a onClick={() => handleSetActiveLink('blog')}  className={`${activeLink === 'blog' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#Blog">Blog</a>
+                                    <a onClick={() => handleSetActiveLink('blog')} className={`${activeLink === 'blog' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#Blog">Blog</a>
                                 </li>
                                 <li className='mt-6 md:mt-0'>
                                     <a className='font-semibold text-white font-barlow text-[18px] cursor-pointer hover:bg-lastprimary py-4 rounded-[5px] hover:shadow-btnshadow shadow-btnhovershadow px-8 bg-primary duration-300' href={cdDownland} download>Download CV</a>
