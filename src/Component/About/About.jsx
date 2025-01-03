@@ -33,7 +33,7 @@ const About = () => {
                         <h3 className="font-semibold text-2xl md:text-3xl text-[#333] pb-3">
                             I Develop Applications That Help People
                         </h3>
-                        <p className="font-openSans font-normal text-base md:text-[18px] text-[#A9ACC6] pb-3">
+                        <p className="font-openSans font-normal text-base md:text-[18px] text-[#A9ACC6] pb-4">
                             I am a frontend developer skilled in building responsive, optimized websites with HTML, CSS, and JavaScript. I excel in frameworks like React.js, ensuring dynamic and scalable applications.
                         </p>
                         <p className="font-openSans font-normal text-base md:text-[18px] text-[#A9ACC6]">
