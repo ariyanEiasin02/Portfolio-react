@@ -37,7 +37,7 @@ export default {
     },
     backgroundImage: {
       'banner': "url(/src/assets/banner.jpg)",
-      'bannerpng': "url(/src/assets/3.png)",
+      'bannerpng': "url(/src/assets/about-1.png)",
       'map': "url(/src/assets/map.png)",
       'acces' : 'linear-gradient(55deg,rgba(2,80,197,0.6) 0%,rgba(212,63,141,0.6) 100%)',
       'get' : 'linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);',
@@ -55,6 +55,10 @@ export default {
         '100%': {
           transform: 'translateX(-50%) translateY(-50%) translateZ(0) scale(1.3)',
           opacity : '1'
+        },
+        spin: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
         },
       },
       'shadow-pulse': {
@@ -105,6 +109,7 @@ export default {
       'shadow-border': 'shadow-border 2s infinite',
       'border-play': 'border-play 2s infinite',
       'photo-pulse': 'photo-pulse 2s infinite',
+      'spin-slow': 'spin 10s linear infinite',
     },
     },
   },
