@@ -12,7 +12,7 @@ const Contact = () => {
       }, []);
   return (
     <div>
-        <section id='Contact' className="md:py-20 py-12">
+        <section id='Contact' className="py-12">
             <div className="max-w-container px-4 md:px-0 mx-auto">
                 <div className="bg-[#0B1C77] rounded-xl py-12 md:px-16 px-6">
                     <div className="md:flex justify-between md:gap-x-16 items-center">

@@ -28,9 +28,9 @@ const BackTop = () => {
   return (
     <>
         <div className={`z[9999] ${scroll ? "block z-[9999]" : "hidden"}`}>
-          <button onClick={scrollToTop} className="font-barlow text-base font-semibold text-lastprimary right-4 bottom-[138px] fixed font-bold [writing-mode:vertical-lr]">To Top</button>
+          <button onClick={scrollToTop} className="font-barlow text-base font-semibold text-lastprimary right-4 bottom-[138px] fixed [writing-mode:vertical-lr] z-50">To Top</button>
 
-          <div className="progress-container w-[1px] h-16 right-[29px] bottom-16 fixed bg-[#f3f3f3]">
+          <div className="progress-container w-[1px] h-16 right-[29px] bottom-16 fixed bg-[#f3f3f3] z-50">
             <div className="progress-bar bg-lastprimary w-full h-0" style={{ height: `${scrollTop}%` }}></div>
           </div>
         </div>

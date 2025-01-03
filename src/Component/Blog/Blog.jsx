@@ -12,7 +12,7 @@ const Blog = () => {
       }, []);
     return (
         <div>
-            <section id='Blog' className="md:py-20 py-12">
+            <section id='Blog' className="py-12">
                 <div className="max-w-container px-4 md:px-0 mx-auto">
                     <div data-aos="fade-down" className="text-center">
                         <span className="font-semibold font-barlow text-xl text-[#FC7868]">Latest News</span>

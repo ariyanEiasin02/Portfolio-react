@@ -22,30 +22,30 @@ const Service = () => {
       }, []);
     return (
         <div>
-            <section id='Service' className="py-20">
+            <section id='Service' className="py-12">
                 <div className="max-w-container md:px-0 px-4 mx-auto">
                     <div className="md:flex flex-wrap">
                         <div data-aos="fade-down" onClick={handleWeb} className="md:w-2/4 hover:bg-[#FB503B] md:rounded-tl-xl rounded-t-lg md:rounded-t-none bg-[#6E7FD1] py-16 px-8 duration-300">
                             <img className="w-20" src={cpu} alt="" />
-                            <h3 className="mt-6 font-semibold mt-2 font-barlow md:text-4xl text-2xl text-[#FFFBFA]">Desktop Application</h3>
+                            <h3 className="font-semibold mt-2 font-barlow md:text-4xl text-2xl text-[#FFFBFA]">Desktop Application</h3>
                             <p className="font-light font-barlow md:text-xl text-base text-[#FFFBFA] md:mt-6 mt-4 md:leading-10 w-[85%]">Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in v iusmod tempor incid idunt ut labore et dolore magna aliqua.</p>
                             <a class="devman_tm_full_link" href="#"></a>
                         </div>
                         <div data-aos="fade-left" onClick={handleWeb} className="md:w-2/4 hover:bg-[#FB503B] md:rounded-tr-xl bg-[#343C55] py-20 px-8 duration-300">
                             <img className="w-16" src={phone} alt="" />
-                            <h3 className="mt-6 font-semibold mt-2 font-barlow md:text-4xl text-2xl text-[#FFFBFA]">Mobile Application</h3>
+                            <h3 className="font-semibold mt-2 font-barlow md:text-4xl text-2xl text-[#FFFBFA]">Mobile Application</h3>
                             <p className="font-light font-barlow  md:text-xl text-base text-[#FFFBFA] md:mt-6 mt-4 md:leading-10 w-[85%]">Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in v iusmod tempor incid idunt ut labore et dolore magna aliqua.</p>
                             <a class="devman_tm_full_link" href="#"></a>
                         </div>
                         <div data-aos="fade-right" onClick={handleWeb} className="md:w-2/4 hover:bg-[#FB503B] md:rounded-bl-xl bg-[#142EB5] py-20 px-8 duration-300">
                             <img className="w-16" src={web} alt="" />
-                            <h3 className="mt-6 font-semibold mt-2 font-barlow md:text-4xl text-2xl text-[#FFFBFA]">Website Development</h3>
+                            <h3 className="font-semibold mt-2 font-barlow md:text-4xl text-2xl text-[#FFFBFA]">Website Development</h3>
                             <p className="font-light font-barlow  md:text-xl text-base text-[#FFFBFA] md:mt-6 mt-4 md:leading-10 w-[85%]">Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in v iusmod tempor incid idunt ut labore et dolore magna aliqua.</p>
                             <a class="devman_tm_full_link" href="#"></a>
                         </div>
                         <div data-aos="fade-up" onClick={handleWeb} className="md:w-2/4 hover:bg-[#FB503B] md:rounded-br-xl rounded-b-lg md:rounded-b-none bg-[#6B97D3] py-20 px-8 duration-300">
                             <img className="w-16" src={star} alt="" />
-                            <h3 className="mt-6 font-semibold mt-2 font-barlow md:text-4xl text-2xl text-[#FFFBFA]">Game Development</h3>
+                            <h3 className="font-semibold mt-2 font-barlow md:text-4xl text-2xl text-[#FFFBFA]">Game Development</h3>
                             <p className="font-light font-barlow  md:text-xl text-base text-[#FFFBFA] md:mt-6 mt-4 md:leading-10 w-[85%]">Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in v iusmod tempor incid idunt ut labore et dolore magna aliqua.</p>
                             <a class="devman_tm_full_link" href="#"></a>
                         </div>
