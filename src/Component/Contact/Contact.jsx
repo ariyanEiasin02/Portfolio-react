@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { FaLocationPin } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Bounce, toast, ToastContainer } from 'react-toastify';
