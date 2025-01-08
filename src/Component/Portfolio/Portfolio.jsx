@@ -40,7 +40,7 @@ const Portfolio = () => {
                                     <p  className="font-light font-barlow text-[18px] text-[#9A9AA0] mt-4">A modern e-commerce website with dynamic product listing, cart management, and user authentication. Built using React, Redux, and Firebase, with data fetched from DummyJSON API. Tailwind CSS was used for responsive design, and Context API handled global state management alongside Redux for scalable architecture</p>
                                 </div>
                                 <div className="mt-12">
-                                    <a className='font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300' href="https://petroil-react.netlify.app/" target='_blank'>View Project</a>
+                                    <a className='font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300' href="https://ecommerce56.netlify.app" target='_blank'>View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ const Portfolio = () => {
                                     <p  className="font-light font-barlow text-[18px] text-[#9A9AA0] mt-4">A sleek, multi-page agency website built with React and styled using Tailwind CSS. Implemented smooth navigation using React Router DOM and ensured a fully responsive design across all devices.</p>
                                 </div>
                                 <div className="mt-12">
-                                    <a className='font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300' href="https://quriarbox-react.netlify.app/" target='_blank'>View Project</a>
+                                    <a className='font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300' href="https://finsweet-react56.netlify.app" target='_blank'>View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const Portfolio = () => {
                                     <p  className="font-light font-barlow md:text-[18px] text-base text-[#9A9AA0] mt-4">A modern e-commerce website with dynamic product listing, cart management, and user authentication. Built using React, Redux, and Firebase, with data fetched from DummyJSON API. Tailwind CSS was used for responsive design, and Context API handled global state management alongside Redux for scalable architecture</p>
                                 </div>
                                 <div className="mt-12">
-                                    <a className='font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300' href="https://petroil-react.netlify.app/" target='_blank'>View Project</a>
+                                    <a className='font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300' href="https://ecommerce56.netlify.app" target='_blank'>View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@ const Portfolio = () => {
                                     <p  className="font-light font-barlow md:text-[18px] text-base text-[#9A9AA0] mt-4">A sleek, multi-page agency website built with React and styled using Tailwind CSS. Implemented smooth navigation using React Router DOM and ensured a fully responsive design across all devices.</p>
                                 </div>
                                 <div className="mt-12">
-                                    <a className='font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300' href="https://quriarbox-react.netlify.app/" target='_blank'>View Project</a>
+                                    <a className='font-semibold text-white font-barlow text-base cursor-pointer hover:bg-primary py-4 rounded-[5px] hover:shadow-btnhovershadow shadow-btnshadow px-8 bg-lastprimary duration-300' href="https://finsweet-react56.netlify.app" target='_blank'>View Project</a>
                                 </div>
                             </div>
                         </div>
