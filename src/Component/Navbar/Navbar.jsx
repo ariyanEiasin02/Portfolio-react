@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-import cdDownland from '../../assets/Ariyan Eiasin Front.pdf'
+import cdDownland from '../../assets/Eiasin_FrontEndDeveloper_CV.pdf'
 const Navbar = () => {
     const [menu, setMenu] = useState(false)
 
