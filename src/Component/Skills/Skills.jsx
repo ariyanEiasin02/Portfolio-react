@@ -33,6 +33,10 @@ const Skills = () => {
             'description':'Specialized in building dynamic and interactive single-page applications (SPAs) with React.js.'
         },
         {
+            'title' : 'Next.js',
+            'description':'Specialized in building dynamic and interactive single-page applications (SPAs) with Next.js.'
+        },
+        {
             'title' : 'Redux',
             'description':'Experience in managing global state and ensuring scalable, predictable app behavior with Redux.'
         },
