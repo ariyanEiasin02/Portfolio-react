@@ -11,6 +11,7 @@ import Service from './Component/Service/Service'
 import Works from './Component/Works/Works'
 import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
+import { GithubStats } from './Component/GithubStats/GithubStats'
 function App() {
   return (
     <div className='overflow-hidden'>
@@ -22,6 +23,7 @@ function App() {
         <Counter></Counter>
         <Portfolio></Portfolio>
         <Skills></Skills>
+        <GithubStats/>
         <Service></Service>
         <Works></Works>
         <Contact></Contact>
