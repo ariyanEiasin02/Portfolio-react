@@ -48,9 +48,6 @@ const Navbar = () => {
                                 <li className='mt-3 md:mt-0'>
                                     <a onClick={() => handleSetActiveLink('contact')} className={`${activeLink === 'contact' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#Contact">Contact</a>
                                 </li>
-                                <li className='mt-3 md:mt-0'>
-                                    <a onClick={() => handleSetActiveLink('blog')} className={`${activeLink === 'blog' ? 'text-red-500' : ''} font-semibold font-barlow text-[18px] cursor-pointer hover:text-primary duration-300 text-white`} href="#Blog">Blog</a>
-                                </li>
                                 <li className='mt-6 md:mt-0'>
                                     <a className='font-semibold text-white font-barlow text-[18px] cursor-pointer hover:bg-lastprimary py-4 rounded-[5px] hover:shadow-btnshadow shadow-btnhovershadow px-8 bg-primary duration-300' href={cdDownland} download>Download CV</a>
                                 </li>
